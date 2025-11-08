@@ -84,4 +84,3 @@ Ensure you have Flutter 3.22+ and Dart SDK ≥ 3.0 installed.
 ## Author
 
 Built by Joseph Uzor
-```
