@@ -1,45 +1,43 @@
-```markdown
 # Pocket Tasks
 
-**Pocket Tasks** is a clean, modern, and responsive Flutter task manager app.  
-It allows users to create, edit, and manage tasks with features like due dates, notes, filtering, sorting, and completion tracking — all with persistent local storage.
+A clean, modern, and responsive Flutter task manager app.  
+Users can create, edit, and manage tasks with due dates, notes, filtering, sorting, and completion tracking — all backed by persistent local storage.
 
 ---
 
 ## Features
 
-- Add, Edit, and Delete Tasks  
-- Mark Tasks as Completed  
-- Assign Due Dates  
-- Filter by All, Completed, or Active  
-- Sort Tasks by Creation or Due Date  
-- Real-Time Search for Tasks by Title  
-- Notes per Task with Ellipsis Preview  
-- Undo Task Deletion via SnackBar  
-- Dynamic Empty State Messaging  
-- Light/Dark Mode Toggle  
-- Splash Screen with Catchy Text  
-- Local Storage using Hive  
-- State Management via Riverpod  
-- Smooth UI Animations and Transitions  
+- Add, edit, and delete tasks  
+- Mark tasks as completed  
+- Assign due dates  
+- Filter tasks by: All, Completed, or Active  
+- Sort tasks by creation date or due date  
+- Real-time search by task title  
+- Attach notes to tasks (with truncated preview)  
+- Undo task deletion via SnackBar  
+- Dynamic empty state messages  
+- Light/dark mode toggle  
+- Splash screen with animated text  
+- Local storage using Hive  
+- State management via Riverpod  
+- Smooth UI animations and transitions  
 
 ---
 
 ## Tech Stack
 
-- **Flutter** 3.22 or higher  
-- **Dart** with null safety  
-- **Hive** for local storage  
-- **Flutter Riverpod** for state management  
-- **Intl** for date formatting  
-- **Shared Preferences** for theme persistence
+- **Flutter**: 3.22 or higher  
+- **Dart**: Null-safe  
+- **Hive**: Local NoSQL storage  
+- **Flutter Riverpod**: State management  
+- **intl**: Date formatting utilities  
+- **shared_preferences**: Theme mode persistence  
 
 ---
 
 ## Project Structure
 
 ```
-
 lib/
 ├── core/
 │   └── theme.dart
@@ -60,20 +58,30 @@ lib/
 │   ├── filter_buttons.dart
 │   └── task_tile.dart
 └── main.dart
-
-````
+```
 
 ---
 
 ## Getting Started
 
+1. Clone the repository  
+2. Install dependencies:
+
 ```bash
 flutter pub get
+```
+
+3. Run the app:
+
+```bash
 flutter run
-````
+```
+
+Ensure you have Flutter 3.22+ and Dart SDK ≥ 3.0 installed.
 
 ---
 
 ## Author
 
-**Built by:**  Joseph Uzor
+Built by Joseph Uzor
+```
